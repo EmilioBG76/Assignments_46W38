@@ -13,7 +13,8 @@ While True: # Starting a loop that will continue meanwhile user enters valid num
 		minimal = numbers[0] # Initiating minimal to the first number entered in the list
 		maximal = numbers[0] # Initiating maximal to the first number entered in the list
 
-		for number_input in Numbers_list: # Iterating through the number list checking if it is less/greater than current minimal/maximal, and then it updates depending on the comparison results
+		for number_input in Numbers_list: # Iterating through the number list checking if it is less/greater than current minimal/maximal, 
+			                              # and then it updates depending on the comparison results
 			if number_input < minimal:
 				minimal = number_input
 
