@@ -6,7 +6,7 @@ Numbers_list = [] # Initiating an empty number list where to be stored the numbe
 While True: # Starting a loop that will continue meanwhile user enters valid numbers or decides to end
 	number_input = input("Please enter a number or type end to finish):")
 	
-	if number_input == 'end': #Breaking the loop when user enters end to finish
+	if number_input == 'end': # Breaking the loop when user enters end to finish
 		break
 
 	elif:
