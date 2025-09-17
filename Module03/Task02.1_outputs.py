@@ -1,8 +1,8 @@
-# Assignment module 3 - Task 02.2
+# Assignment module 3 - Task 02.1
 
 # Initialization of variables x and y
 
-x = 30 # Try x = 3 and x = 30
+x = 3 # Try x = 3 and x = 30
 y = None
 
 
@@ -28,3 +28,7 @@ for i in range(10): # Modifying x based on the loop counter (i) can be even or o
         continue
         
     x = x + 1
+
+print(x)
+print(y)
+    
