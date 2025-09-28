@@ -36,6 +36,7 @@ def find_min(numbers):
                 # the comparison results
             if number < minimal:
                 minimal = number
+        print(f"The minimal number is: {minimal}")        
         return minimal
     else:
         print(f"The list is empty.")
@@ -52,6 +53,7 @@ def find_max(numbers):
                        # the comparison results
             if number > maximal:
                 maximal = number
+        print(f"The maximal number is: {maximal}") 
         return maximal
     else:
         print(f"The list is empty.")
