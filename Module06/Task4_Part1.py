@@ -12,6 +12,8 @@ df = pd.read_excel(data_fileex2, sheet_name="Exercise 4 - Baseline", engine='ope
 df_A = pd.read_excel(data_fileex2, sheet_name="Exercise 4 - A", engine='openpyxl')
 df_B = pd.read_excel(data_fileex2, sheet_name="Exercise 4 - B", engine='openpyxl')
 
+# Defining variables for the three wind turbines
+
 x1 = df["Time (s)"]
 y1 = df["Rotor speed (rpm)"]
 
@@ -21,8 +23,9 @@ y2 = df_A["Rotor speed (rpm)"]
 x3 = df_B["Time (s)"]
 y3 = df_B["Rotor speed (rpm)"]
 
+# Plotting the figure
 
-plt.figure(figsize=(12,6))
+plt.figure(figsize=(12,6)) # Setting the figure size
 
 plt.plot(x1, y1, color='red', label='Turbine #1 (Baseline)')
 plt.plot(x2, y2, color='blue', label='Turbine #2 (A)')
