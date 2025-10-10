@@ -4,7 +4,7 @@
 numbers = [] # Initiating an empty number list where to be stored the numbers the user is going to enter
 
 while True: # Starting a loop that will continue meanwhile user enters valid numbers or decides to end
-	number_input = input("Please enter a number or type end to finish):")
+	number_input = input("Please enter a number or type 'end' to finish):")
 	
 	if number_input == 'end': #Breaking the loop when user enters end to finish
 		    break
